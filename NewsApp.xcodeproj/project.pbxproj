@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		23FA292226549A5100422F20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FA292126549A5100422F20 /* AppDelegate.swift */; };
 		23FA292426549A5100422F20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FA292326549A5100422F20 /* SceneDelegate.swift */; };
-		23FA292626549A5100422F20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FA292526549A5100422F20 /* ViewController.swift */; };
 		23FA292926549A5100422F20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FA292726549A5100422F20 /* Main.storyboard */; };
 		23FA292B26549A5100422F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23FA292A26549A5100422F20 /* Assets.xcassets */; };
 		23FA292E26549A5100422F20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FA292C26549A5100422F20 /* LaunchScreen.storyboard */; };
 		23FA293926549A5100422F20 /* NewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FA293826549A5100422F20 /* NewsAppTests.swift */; };
 		23FA294426549A5100422F20 /* NewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FA294326549A5100422F20 /* NewsAppUITests.swift */; };
+		23FA295226549C5500422F20 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 23FA295126549C5500422F20 /* Settings.bundle */; };
+		23FA29562654B05F00422F20 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FA29552654B05F00422F20 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		23FA291E26549A5100422F20 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23FA292126549A5100422F20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23FA292326549A5100422F20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		23FA292526549A5100422F20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		23FA292826549A5100422F20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23FA292A26549A5100422F20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23FA292D26549A5100422F20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		23FA293F26549A5100422F20 /* NewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23FA294326549A5100422F20 /* NewsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppUITests.swift; sourceTree = "<group>"; };
 		23FA294526549A5100422F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23FA295126549C5500422F20 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		23FA29552654B05F00422F20 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				23FA292126549A5100422F20 /* AppDelegate.swift */,
 				23FA292326549A5100422F20 /* SceneDelegate.swift */,
-				23FA292526549A5100422F20 /* ViewController.swift */,
 				23FA292726549A5100422F20 /* Main.storyboard */,
+				23FA29552654B05F00422F20 /* LoginViewController.swift */,
 				23FA292A26549A5100422F20 /* Assets.xcassets */,
 				23FA292C26549A5100422F20 /* LaunchScreen.storyboard */,
 				23FA292F26549A5100422F20 /* Info.plist */,
+				23FA295126549C5500422F20 /* Settings.bundle */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23FA295226549C5500422F20 /* Settings.bundle in Resources */,
 				23FA292E26549A5100422F20 /* LaunchScreen.storyboard in Resources */,
 				23FA292B26549A5100422F20 /* Assets.xcassets in Resources */,
 				23FA292926549A5100422F20 /* Main.storyboard in Resources */,
@@ -258,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23FA292626549A5100422F20 /* ViewController.swift in Sources */,
+				23FA29562654B05F00422F20 /* LoginViewController.swift in Sources */,
 				23FA292226549A5100422F20 /* AppDelegate.swift in Sources */,
 				23FA292426549A5100422F20 /* SceneDelegate.swift in Sources */,
 			);
