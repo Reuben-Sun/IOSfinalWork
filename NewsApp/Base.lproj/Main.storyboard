@@ -68,6 +68,9 @@
                                                                 <integer key="value" value="10"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F74-bt-Tks"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5l-7p-ySV">
                                                         <rect key="frame" x="212" y="0.0" width="162" height="79.5"/>
@@ -103,6 +106,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="baI-6o-p4C" secondAttribute="trailing" constant="20" id="bEc-km-7SS"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nameText" destination="rfc-Dy-dEw" id="RJj-0g-s25"/>
+                        <outlet property="passwordText" destination="Led-yj-JAl" id="a6e-HN-2D9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -127,7 +134,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="rQO-r6-LBb">
             <objects>
-                <tabBarController id="K9p-Ni-aZ8" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="vcMain" id="K9p-Ni-aZ8" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yUG-wX-lZk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
